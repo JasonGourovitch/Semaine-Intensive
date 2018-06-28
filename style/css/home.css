@@ -638,3 +638,9 @@
     height: 4400px;
   }
 }
+
+@media (max-width: 340px) {
+  .Header__subtitle {
+    font-size: 14px;
+  }
+}

@@ -427,7 +427,12 @@ align-items: center;
   }
 }
 
-
+@media (max-width:399px) {
+  .section__header__container {
+    width: 100vw;
+    margin: 0 0;
+  }
+}
 
 
 
