@@ -5,11 +5,11 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Profil_tablette" transform="translate(-254.000000, -385.000000)">
-            <g id="Group-3" transform="translate(254.000000, 385.000000)">
+        <g id="Profil" transform="translate(-108.000000, -300.000000)">
+            <g id="Group-3" transform="translate(108.000000, 300.000000)">
                 <rect id="Rectangle-17-Copy-4" stroke="#FEF6E8" x="0.5" y="0.5" width="211" height="44"></rect>
-                <text id="commandes-finis" font-family="TisaPro-Light, Tisa Pro" font-size="16" font-weight="300" letter-spacing="1.14285719" fill="#FEF6E8">
-                    <tspan x="39" y="28">commandes finis</tspan>
+                <text id="commandes-finalisées" font-family="TisaPro-Light, Tisa Pro" font-size="16" font-weight="300" letter-spacing="1.14285719" fill="#FEF6E8">
+                    <tspan x="19" y="28">commandes finalisées</tspan>
                 </text>
             </g>
         </g>

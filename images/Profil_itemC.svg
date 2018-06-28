@@ -8,8 +8,8 @@
         <g id="Profil" transform="translate(-108.000000, -300.000000)">
             <g id="Group-3" transform="translate(108.000000, 300.000000)">
                 <rect id="Rectangle-17-Copy-4" fill="#FEF6E8" x="0" y="0" width="212" height="45"></rect>
-                <text id="commandes-finis" font-family="TisaPro-Light, Tisa Pro" font-size="16" font-weight="300" letter-spacing="1.14285719" fill="#08091B">
-                    <tspan x="16" y="28">commandes finis</tspan>
+                <text id="commandes-finalisées" font-family="TisaPro-Light, Tisa Pro" font-size="16" font-weight="300" letter-spacing="1.14285719" fill="#08091B">
+                    <tspan x="16" y="28">commandes finalisées</tspan>
                 </text>
             </g>
         </g>

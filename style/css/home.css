@@ -138,7 +138,9 @@
   letter-spacing: -2px;
   color: #FCEDD3;
 }
-
+.Header__subtitle--begin {
+  font-family: 'Tisa-Light';
+}
 
 .Equipments__Section__indicator {
   width: 258px;

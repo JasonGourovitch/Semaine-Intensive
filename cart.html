@@ -44,15 +44,19 @@
     </header>
                           <!-- Fin Header -->
     <main class="Main__cart">
-      <!-- particles.js container -->
 
       <a href="cart.html"><img class="Main__cart__icon" src="images/Cart_icon_in.svg" alt=""></a>
       <a href="profil.html"><img class="Main__cart__icon Main__cart__icon--profil" src="images/Profil_icon.svg" alt=""></a>
       <div class="Main__cart__container">
+        <div class="thanks">
+          <div class="">
+            <p class="thanks__text">commande validée</p>
+          </div>
+        </div>
         <div class="Main__cart__article">
           <div class="Main__cart__article__left">
             <div class="Main__cart__article__img"></div>
-            <h3 class="Main__cart__article__title">Casque special 50ans Daft Punk</h3>
+            <h3 class="Main__cart__article__title">SpaceX Combinaison</h3>
             <p class="Main__cart__article__price">79,49</p>
           </div>
           <div class="Main__cart__article__right">
@@ -66,22 +70,6 @@
 
         <div class="Main__cart__line"></div>
 
-        <div class="Main__cart__article">
-          <div class="Main__cart__article__left">
-            <div class="Main__cart__article__img"></div>
-            <h3 class="Main__cart__article__title">Casque special 50ans Daft Punk</h3>
-            <p class="Main__cart__article__price">79,49</p>
-          </div>
-          <div class="Main__cart__article__right">
-            <div class="Main__cart__article__number">
-              <p class="Main__cart__article__chiffre">1</p>
-              <img class="Main__cart__article__arrow" src="images/Cart_arrow.svg" alt="">
-            </div>
-            <img class="Main__cart__article__delete" src="images/Cart_delete.svg" alt="">
-          </div>
-        </div>
-
-        <div class="Main__cart__line"></div>
         <div class="validay__container">
           <img class="validay" src="images/Cart_validay.svg" alt="">
         </div>
@@ -97,7 +85,17 @@
   <script src="style/js/main.js" type="text/javascript">
   </script>
   <script type="text/javascript">
+    var thanks = document.querySelector('.thanks');
+    var validay = document.querySelector('.validay__container');
+    var article = document.querySelector('.Main__cart__article');
+    var cartline = document.querySelector('.Main__cart__line');
 
+    validay.addEventListener('click', function(){
+      article.style.display = 'none';
+      validay.style.display = 'none';
+      cartline.style.display = 'none';
+      thanks.style.display = 'block';
+    });
   </script>
   </body>
 </html>

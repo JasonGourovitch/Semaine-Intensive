@@ -317,8 +317,24 @@ align-items: center;
 }
 
 
-
-
+.crossSelling__container-a {
+  background-image: url(../../images/arcticle_combieC.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crossSelling__container-b {
+  background-image: url(../../images/arcticle_combieB.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crossSelling__container-c {
+  background-image: url(../../images/arcticle_combieD.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 
@@ -429,6 +445,22 @@ align-items: center;
 
 @media (max-width:399px) {
   .section__header__container {
+    width: 100vw;
+    margin: 0 0;
+  }
+  .crossSelling__container {
+    width: 100vw;
+  }
+  .section__header{
+    width: 100vw;
+  }
+  .crossSelling {
+    width: 100vw;
+  }
+  .crossSelling__fs {
+    width: 100vw;
+  }
+  .Menu {
     width: 100vw;
     margin: 0 0;
   }
