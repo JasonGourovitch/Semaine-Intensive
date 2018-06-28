@@ -1,0 +1,172 @@
+.Main__cart {
+  width: 100vw;
+  height: 100vh;
+  background-color: #08091B;
+}
+.Main__cart__container {
+  width: 80vw;
+  height: 70vh;
+  position: absolute;
+  top: 15vh;
+  right: 0;
+  background-color: #FEF6E8;
+}
+
+.Main__cart__article__img {
+  width: 74px;
+  height: 74px;
+  background-color: #08091B;
+}
+.Main__cart__article {
+  margin: 10px auto;
+}
+.Main__cart__article__left {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.Main__cart__article__title {
+  margin-top: 0px;
+  padding-left: 12px;
+  font-size: 16px;
+  font-family: 'Tisa-Light';
+  letter-spacing: 1px;
+  color: #08091B;
+}
+.Main__cart__article__price {
+  position: absolute;
+  margin-left: 86px;
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: 'Tisa-Bold';
+  letter-spacing: 1px;
+  color: #08091B;
+}
+.Main__cart__article__right {
+  padding-top: 12px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Main__cart__article__number {
+  width: 46px;
+  height: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #08091B;
+  cursor: pointer;
+}
+.Main__cart__article__chiffre {
+  line-height: 0px;
+  font-size: 14px;
+  font-family: 'Tisa-Light';
+  letter-spacing: 1px;
+  color: #FEF6E8;
+}
+.Main__cart__article__arrow {
+  padding-top: 2px;
+}
+
+.Main__cart__line {
+  margin: 12px auto;
+  width: 90%;
+  height: 0.5px;
+  opacity: .2;
+  background-color: #08091B;
+
+}
+.Main__cart__article__delete {
+  cursor: pointer;
+}
+.validay__container {
+  width: 90%;
+  margin: 0 auto;
+  height: 46%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.validay {
+  width: 116;
+  height: 28px;
+  cursor: pointer;
+}
+.Main__cart--fs {
+  display: none
+}
+.Main__cart__icon {
+  position: absolute;
+  left: calc(9vw + 6px);
+  top: 97px;
+}
+.Main__cart__icon--profil {
+  top: 163px;
+  left: calc(9vw + 6px);
+}
+.footer__little {
+  width: 213px;
+  height: 94px;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__little__item {
+  font-size: 14px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 1px;
+  color: #FCEDD3;
+  opacity: .45;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:760px) {
+  .Main__cart__container {
+    width: 576px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Main__cart__icon {
+    display: none
+  }
+  .footer__little {
+    width: 80vw;
+    height: 94px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+}

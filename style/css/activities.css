@@ -1,0 +1,45 @@
+.Main__activities {
+  background-color: #08091B;
+  padding-top: 100px;
+  width: 100vw;
+  margin: 0 auto;
+}
+.Main__activities__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.Section__activities {
+  width: 260px;
+  padding: 60px 57px 60px 57px;
+  margin: 0 auto;
+}
+.Section__activities__image {
+  width: 260px;
+  margin: 0px auto 24px;
+}
+
+.Section__activities__details {
+  margin: 0 auto;
+  width: 158px;
+  height: 42px;
+  background-image: url(../../images/Activities_button.svg);
+  background-size: cover;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.Section__activities__details:hover {
+  background-image: url(../../images/Activities_button_hover.svg);
+}
+
+@media (min-width: 1160px) {
+  .Main__activities__container {
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}

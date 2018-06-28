@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="28px" viewBox="0 0 115 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart-Copy" transform="translate(-592.000000, -705.000000)">
+            <g id="Group" transform="translate(592.000000, 705.000000)">
+                <rect id="Rectangle-19" fill="#08091B" x="0" y="0" width="115" height="28"></rect>
+                <text id="VALIDER" font-family="TisaPro-Medium, TisaPro" font-size="12" font-weight="400" letter-spacing="1.5" fill="#FEF6E8">
+                    <tspan x="27" y="19">VALIDE</tspan>
+                    <tspan x="79.884" y="19">R</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

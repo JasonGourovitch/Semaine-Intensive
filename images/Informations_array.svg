@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="259px" height="130px" viewBox="0 0 259 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile-copy" transform="translate(-31.000000, -5819.000000)">
+            <g id="Group-11" transform="translate(29.000000, 5586.000000)">
+                <g id="Group-23" transform="translate(2.000000, 233.000000)">
+                    <g id="Group-28">
+                        <rect id="Rectangle-12" stroke="#DFBF85" x="0.5" y="0.5" width="258" height="129"></rect>
+                        <text id="24HR" font-family="SpaceMono-Bold, Space Mono" font-size="42" font-weight="bold" fill="#FCEDD3">
+                            <tspan x="138" y="70">24</tspan>
+                            <tspan x="189.408" y="70" font-size="22">HR</tspan>
+                        </text>
+                        <text id="37MINS" font-family="SpaceMono-Bold, Space Mono" font-size="22" font-weight="bold" fill="#FCEDD3">
+                            <tspan x="191" y="48">37</tspan>
+                            <tspan x="217.928" y="48" font-size="12">MINS</tspan>
+                        </text>
+                        <text id="PAR-JOUR" font-family="SpaceMono-Regular, Space Mono" font-size="16" font-weight="normal" fill="#FCEDD3">
+                            <tspan x="153" y="94">PAR JOUR</tspan>
+                        </text>
+                        <text id="DE-GRAVITÉ" font-family="SpaceMono-Regular, Space Mono" font-size="16" font-weight="normal" fill="#FCEDD3">
+                            <tspan x="15" y="94">DE GRAVITÉ</tspan>
+                        </text>
+                        <text id="38%" font-family="SpaceMono-Bold, Space Mono" font-size="42" font-weight="bold" fill="#FCEDD3">
+                            <tspan x="25" y="70">38%</tspan>
+                        </text>
+                        <path d="M128.5,0.5 L128.5,129.5" id="Line-10-Copy" stroke="#DFBF85" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

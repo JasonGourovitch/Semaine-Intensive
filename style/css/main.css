@@ -1,0 +1,61 @@
+/* Import of Stylesheet */
+
+@import 'header.css';
+@import 'footer.css';
+@import 'page.css';
+@import 'home.css';
+@import 'equipments.css';
+@import 'activities.css';
+@import 'productpage.css';
+@import 'cart.css';
+@import 'profil.css';
+
+
+/* Import of Fonts */
+
+
+/* First Fonts */
+@font-face {
+    font-family: 'SpaceMono-Regular';      /*  the name to be used later  */
+    src: url(../fonts/SpaceMono/SpaceMono-Regular.ttf);        /*  URL to font  */
+}
+@font-face {
+    font-family: 'SpaceMono-Italique';      /*  the name to be used later  */
+    src: url(../fonts/SpaceMono/SpaceMono-Italique.ttf);        /*  URL to font  */
+}
+@font-face {
+    font-family: 'SpaceMono-Bold';      /*  the name to be used later  */
+    src: url(../fonts/SpaceMono/SpaceMono-Bold.ttf);        /*  URL to font  */
+}
+@font-face {
+    font-family: 'SpaceMono-BoldItalique';      /*  the name to be used later  */
+    src: url(../fonts/SpaceMono/SpaceMono-BoldItalique.ttf);        /*  URL to font  */
+}
+
+/* Second Fonts */
+@font-face {
+    font-family: 'Tisa-Thin';      /*  the name to be used later  */
+    src: url(../fonts/Tisa/TisaPro-thin.otf);        /*  URL to font  */
+}
+@font-face {
+    font-family: 'Tisa-Light';      /*  the name to be used later  */
+    src: url(../fonts/Tisa/TisaPro-Light.otf);        /*  URL to font  */
+}
+@font-face {
+    font-family: 'Tisa_Regular';      /*  the name to be used later  */
+    src: url(../fonts/Tisa/TisaPro-Regular.otf);        /*  URL to font  */
+}
+@font-face {
+    font-family: 'Tisa-Bold';      /*  the name to be used later  */
+    src: url(../fonts/Tisa/TisaProBold.otf);        /*  URL to font  */
+}
+
+
+
+
+/* Reset CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+}

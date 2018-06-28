@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="129px" viewBox="0 0 260 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile-copy" transform="translate(-31.000000, -4437.000000)">
+            <g id="Group-8" transform="translate(30.000000, 4079.000000)">
+                <g id="Group-22" transform="translate(1.000000, 358.000000)">
+                    <g id="Group-26">
+                        <text id="RESISTANTE-AU-RADIAT" font-family="SpaceMono-Regular, Space Mono" font-size="12" font-weight="normal" fill="#FCEDD3">
+                            <tspan x="27.28" y="93">RESISTANTE </tspan>
+                            <tspan x="16.264" y="110">AU RADIATIONS</tspan>
+                        </text>
+                        <text id="OXIGÈNE" font-family="SpaceMono-Regular, Space Mono" font-size="12" font-weight="normal" fill="#FCEDD3">
+                            <tspan x="169.296" y="93">OXIGÈNE</tspan>
+                        </text>
+                        <text id="20%" font-family="SpaceMono-Bold, Space Mono" font-size="48" font-weight="bold" letter-spacing="-4" fill="#FCEDD3">
+                            <tspan x="24" y="69">20</tspan>
+                            <tspan x="74.752" y="69">%</tspan>
+                        </text>
+                        <text id="6HRS" font-family="SpaceMono-Bold, Space Mono" font-size="48" font-weight="bold" letter-spacing="-4" fill="#FCEDD3">
+                            <tspan x="138" y="69">6</tspan>
+                            <tspan x="163.376" y="69">HRS</tspan>
+                        </text>
+                        <rect id="Rectangle-2" stroke="#DFBF85" stroke-width="0.5" x="0.25" y="0.25" width="259.5" height="128.5"></rect>
+                        <path d="M129.5,0.5 L129.5,128.5" id="Line-8" stroke="#DFBF85" stroke-width="0.5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

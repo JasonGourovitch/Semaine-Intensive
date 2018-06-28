@@ -1,0 +1,96 @@
+
+.Main__profil {
+  width: 100vw;
+  height: 100vh;
+  background-color: #08091B;
+}
+
+.Main__profil__container {
+  padding-top: 30vh;
+  height: 280px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Main__profil__item {
+  width: 212px;
+  height: 45px;
+  background-size: cover;
+  transition: .2s;
+}
+.Main__profil__itemA {
+  background-image: url(../../images/Profil_itemA.svg);
+}
+.Main__profil__itemA:hover {
+  background-image: url(../../images/Profil_itemA_hover.svg);
+}
+.Main__profil__itemB {
+  background-image: url(../../images/Profil_itemB.svg);
+}
+.Main__profil__itemB:hover {
+  background-image: url(../../images/Profil_itemB_hover.svg);
+}
+.Main__profil__itemC {
+  background-image: url(../../images/Profil_itemC.svg);
+}
+.Main__profil__itemC:hover {
+  background-image: url(../../images/Profil_itemC_hover.svg);
+}
+.Main__profil__itemD {
+  background-image: url(../../images/Profil_itemD.svg);
+}
+.Main__profil__itemD:hover {
+  background-image: url(../../images/Profil_itemD_hover.svg);
+}
+
+
+
+
+
+@media (min-width: 530px) {
+  .Main__profil__container {
+    height: 280px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Main__profil__itemA {
+    background-image: url(../../images/Profil_itemAfs.svg);
+  }
+  .Main__profil__itemA:hover {
+    background-image: url(../../images/Profil_itemAfs_hover.svg);
+  }
+  .Main__profil__itemB {
+    background-image: url(../../images/Profil_itemBfs.svg);
+  }
+  .Main__profil__itemB:hover {
+    background-image: url(../../images/Profil_itemBfs_hover.svg);
+  }
+  .Main__profil__itemC {
+    background-image: url(../../images/Profil_itemCfs.svg);
+  }
+  .Main__profil__itemC:hover {
+    background-image: url(../../images/Profil_itemCfs_hover.svg);
+  }
+  .Main__profil__itemD {
+    background-image: url(../../images/Profil_itemDfs.svg);
+  }
+  .Main__profil__itemD:hover {
+    background-image: url(../../images/Profil_itemDfs_hover.svg);
+  }
+}

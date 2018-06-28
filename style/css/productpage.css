@@ -1,0 +1,443 @@
+
+.Header__navItem--productPage {
+  margin-top: 20px;
+  right: 9vw;
+}
+
+.productPage__main {
+  padding-top: 124px;
+  background-color: #08091B;
+}
+
+.section__header {
+  height: 260px;
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section__header__container {
+    height: 260px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #FEF6E8;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../../images/arcticle_combieA.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.section__main__color__puces {
+  width: 52px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.section__main__color__puce {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-position: center;
+}
+.section__main__color__puce--a {
+  background-image: url(../../images/colorblack.svg);
+}
+.section__main__color__puce--b {
+  background-image: url(../../images/colorwhite.svg);
+}
+.section__header__button {
+  cursor: pointer;
+
+}
+.image__indicator {
+  margin: 12px auto;
+  width: 94px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.image__indicator__size {
+  width: 8px;
+  height: 8px;
+  background-size: cover;
+  transition: .2s
+}
+.image__indicator__full {
+  background-image: url(../../images/productpage/cercle_full.svg);
+}
+
+.image__indicator__empty {
+  background-image: url(../../images/productpage/cercle_empty.svg);
+}
+
+.section__main {
+width: 328px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+}
+.section__main__partA {
+
+}
+.section__main__title {
+  width: 152px;
+  font-size: 16px;
+  font-family: 'Tisa-Thin';
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #DFBF85;
+}
+
+.section__main__price {
+  margin-top: -10px;
+  font-size: 18px;
+  font-family: 'Tisa-Bold';
+  letter-spacing: 1px;
+  color: #DFBF85;
+}
+.section__main__addtocart {
+  width: 132px;
+  height: 38px;
+  background-image: url(../../images/productpage/addToCart.svg);
+  background-size: cover;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.section__main__addtocart:hover {
+  background-image: url(../../images/productpage/addToCart_hover.svg);
+}
+
+.section__main__livraison {
+  width: 132px;
+  font-size: 10px;
+  font-family: 'Tisa-Thin';
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FCEDD3;
+}
+
+.section__main__size {
+  height: 50px;
+  width: 328px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.section__main__size__partA {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+}
+.section__main__size__title {
+  font-size: 14px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 1px;
+  color: #DFBF85;
+}
+
+.section__main__size__subtitle {
+  font-size: 10px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 1px;
+  color: #FCEDD3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.section__main__size__partB {
+  align-self: flex-start;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.section__main__size__chiffre {
+  line-height: 26px;
+  margin-top: 20px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 0px;
+  color: #FCEDD3;
+  background-color: #08091B;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.visible {
+  background-color: #DFBF85;
+  color: #08091B;
+}
+
+.section__mainB {
+  width: 328px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+}
+.section__main__color {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.section__main__color__title {
+  font-size: 14px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 1px;
+  color: #DFBF85;
+  text-align: right;
+}
+
+.section__footer {
+  margin: 80px auto;
+  width: 328px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section__footer__title {
+
+  margin-top: 36px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-family: 'Tisa-Light';
+  letter-spacing: 1px;
+  color: #DFBF85;
+}
+
+.section__footer__text {
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 1px;
+  color: #FCEDD3;
+}
+.crossSelling {
+  width: 400px;
+  margin: 200px auto 0px;
+}
+.crossSelling__title {
+  width: 174px;
+  margin: 46px auto;
+  font-size: 14px;
+  font-family: 'Tisa-Light';
+  letter-spacing: 2px;
+  color: #DFBF85;
+}
+
+
+.crossSelling__container {
+  width: 400px;
+  height: 260px;
+  background-color: #FEF6E8;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.crossSelling__article__title {
+  margin: 12px auto 0px;
+  width: 328px;
+  font-style: 14px;
+  font-family: 'Tisa-Light';
+  color: #FCEDD3;
+
+}
+.crossSelling__article__price {
+  margin: 0 auto;
+  padding-bottom: 40px;
+  width: 328px;
+  font-style: 14px;
+  letter-spacing: 2px;
+  font-family: 'Tisa-Bold';
+  color: #DFBF85;
+}
+
+
+.Header__navItem--temps {
+  display: none;
+}
+.section__back {
+  display: none;
+}
+.crossSelling__container--white {
+  display: none;
+}
+.Header__navItem--productPage {
+  cursor: pointer;
+}
+
+
+.popup {
+  opacity: 0;
+  width: 40vw;
+  height: 20vh;
+  position: fixed;
+  z-index: -1;
+  background-color: #08091B;
+  border-radius: 10px;
+  border: solid .5px #DFBF85;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: .5s;
+}
+.popup_item {
+  padding-top: 30px;
+}
+.popup_item--a {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1060px) {
+  .productPage__section__fs {
+    margin: 0 auto;
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .section__main__title {
+    margin-top: -4px;
+    width: 310px;
+    margin-bottom: 10px;
+  }
+  .section__main__price {
+    margin-bottom: 40px;
+  }
+  .section__main__partB {
+    position: absolute;
+    margin-top: 186px;
+  }
+  .Header__navItem--productPage {
+    display: none;
+  }
+  .Header__navItem--temps {
+    display: block;
+  }
+  .section__back {
+    display: block;
+    cursor: pointer;
+  }
+  .section__header {
+    width: 408px;
+  }
+  .section__header__miniature {
+    width: 62px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .section__header__miniature__item {
+    width: 62px;
+    height: 50px;
+    background-color: #FEF6E8;
+    cursor: pointer;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .section__header__miniature__item--a {
+    background-image: url(../../images/arcticle_combieA.jpg);
+  }
+  .section__header__miniature__item--b {
+    background-image: url(../../images/arcticle_combieAPosB.jpg);
+  }
+  .section__header__miniature__item--c {
+    background-image: url(../../images/arcticle_combieAPosC.jpg);
+  }
+  .section__header__miniature__item--d {
+    background-image: url(../../images/arcticle_combieAPosD.jpg);
+  }
+  .image__indicator {
+    position: absolute;
+    margin-left: 114px;
+  }
+  .section__footer {
+    flex-direction: row;
+    width: 1010px
+  }
+  .crossSelling {
+    width: 1010px;
+    margin: 200px auto 0px;
+  }
+  .crossSelling__fs {
+    width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .crossSelling__container {
+    width: 322px;
+
+  }
+  .crossSelling__container--white {
+    display: block;
+  }
+  .section__header__container {
+    width: 322px;
+    background-size: 110%;
+  }
+  .crossSelling__article__title, .crossSelling__article__price   {
+    width: 322px;
+  }
+  .section__header__button {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

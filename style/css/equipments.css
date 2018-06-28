@@ -1,0 +1,55 @@
+.Main__equipment {
+  background-color: #08091B;
+  padding-top: 130px;
+  width: 100vw;
+  margin: 0 auto;
+}
+.Main__equipment__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 82vw;
+  margin: 0 auto;
+}
+.Section__equipment__link {
+  text-decoration: none;
+}
+.Section__equipment {
+  padding: 32px 12px 32px 12px;
+  width: 260px;
+  margin: 0 auto;
+}
+.Section__equipment__image {
+    width: 260px;
+    height: 260px;
+    background-color: #FEF6E8;
+}
+.Section__equipment__title {
+  font-size: 13px;
+  font-family: 'SpaceMono-Regular';
+  letter-spacing: -0.3;
+  line-height: 22px;
+  color: #FCEDD3;
+}
+.Section__equipment__price {
+  font-size: 18px;
+  font-family: 'SpaceMono-Bold';
+  letter-spacing: 1;
+  line-height: 22px;
+  color: #DFBF85;
+}
+
+@media (min-width: 720px) {
+
+}
+
+
+@media (min-width: 1160px) {
+  .Main__equipment__container {
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}

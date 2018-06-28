@@ -1,0 +1,124 @@
+.BackToTop {
+  background-image: url(../../images/Back_to_top.svg);
+  position: absolute;
+  width: 260px;
+  height: 32px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: 0s;
+}
+
+.BackToTop:hover {
+  background-image: url(../../images/Back_to_top_hover.svg);
+}
+
+
+
+
+.Footer {
+  background-color: #08091B;
+  padding-top: 240px;
+}
+.Footer__partA {
+  width: 240px;
+  margin: 0 auto;
+}
+.Footer__section {
+margin-top: 96px;
+opacity: .6;
+}
+.Footer__section__title {
+  font-size: 14px;
+  font-family: 'Tisa-Bold';
+  letter-spacing: 1px;
+  color: #DFBF85;
+  margin-bottom: 24px;
+}
+.Footer__section__text {
+  font-size: 14px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 1px;
+  color: #FCEDD3;
+  margin-bottom: 6px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.Footer__partB {
+  padding-top: 120px;
+  padding-bottom: 40px;
+  height: 216px;
+  width: 240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Footer__languages {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.Footer__languages__item {
+  font-size: 14px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 1px;
+  color: #FCEDD3;
+  text-decoration: underline;
+}
+
+.Footer__conditions {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  opacity: .2;
+}
+
+
+.Footer__conditions__item {
+  font-size: 14px;
+  font-family: 'Tisa-Thin';
+  letter-spacing: 1px;
+  color: #FCEDD3;
+}
+.BackToTop--equipment {
+  position: inherit;
+}
+.Footer--equipment {
+  padding-top : 120px;
+}
+
+
+
+
+
+@media (min-width:720px) {
+
+}
+
+
+@media (min-width:1024px) {
+  .Footer {
+    padding-top: 140px;
+  }
+  .Footer__partA {
+    width: 82vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .Footer__conditions {
+    flex-direction: row;
+  }
+  .Footer__partB {
+    width: 82vw;
+  }
+  .Footer__languages {
+    width: 240px;
+    align-self: center;
+  }
+}
